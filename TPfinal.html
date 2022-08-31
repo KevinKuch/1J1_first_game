@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kevin Kuch">
+
+    <title>Demon escape</title>
+
+    <style>
+        canvas {
+            border: 1px solid black;
+            cursor: pointer;
+
+            display: block;
+            margin: 5em auto;
+        }
+    </style>
+</head>
+
+<!-- BUT DU JEU -->
+
+<!-- Dans ce jeu, le personnage esquive les monstres qui arrivent par la droite du canvas-->
+<!-- Le personnage peut bouger de gauche à droite, s'accroupir et sauter -->
+<!-- Le personnage et les monstres se déplacent uniquement sur l'axe horizontale -->
+<!-- Ses nombres de vies augmentent lorsqu'il prend des coeurs, mais ses vies diminuent si un monstre lui touche  -->
+<!-- le jeu sera terminé lorsque le personnage récupère 10 coeurs qui apparaît au hasard dans le canvas sur l'axe horizontale au même niveau du personnage. 
+    Ces coeurs sera le compteur en haut et à droite du canvas: jeu gagner -->
+<!-- Le jeu sera terminé lorsque le personnage perd tous ses vies/ses nombres de vies est 0 : jeu perdu-->
+
+
+<body>
+    <!-- Créer la balise canvas et modifier ensuite ses dimensions -->
+    <canvas width="1024" height="512"></canvas>
+    <script src="script.js"></script>
+</body>
+
+</html>
